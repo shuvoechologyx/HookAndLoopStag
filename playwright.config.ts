@@ -64,7 +64,7 @@ const config: PlaywrightTestConfig = {
     //   },
     // })
     // permissions: ["microphone", "camera", "clipboard-read", "clipboard-write"],
-    // headless: process.env.CI ? true : false,
+    headless: process.env.CI ? true : false,
     //headless: true ,
     // browserName: 'chromium',
     // channel: 'chromium',
